@@ -17,7 +17,7 @@ require (
 	github.com/agext/levenshtein v1.2.3 // indirect
 	github.com/apparentlymart/go-textseg/v15 v15.0.0 // indirect
 	github.com/armon/go-radix v1.0.0 // indirect
-	github.com/aws/aws-sdk-go v1.49.16 // indirect
+	github.com/aws/aws-sdk-go v1.49.19 // indirect
 	github.com/aws/aws-sdk-go-v2 v1.24.1 // indirect
 	github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream v1.5.4 // indirect
 	github.com/aws/aws-sdk-go-v2/config v1.26.3 // indirect
@@ -43,10 +43,11 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/chimesdkvoice v1.12.6 // indirect
 	github.com/aws/aws-sdk-go-v2/service/cleanrooms v1.8.6 // indirect
 	github.com/aws/aws-sdk-go-v2/service/cloudcontrol v1.15.7 // indirect
-	github.com/aws/aws-sdk-go-v2/service/cloudwatchlogs v1.30.2 // indirect
+	github.com/aws/aws-sdk-go-v2/service/cloudwatchlogs v1.31.0 // indirect
 	github.com/aws/aws-sdk-go-v2/service/codecatalyst v1.10.6 // indirect
 	github.com/aws/aws-sdk-go-v2/service/codedeploy v1.22.3 // indirect
 	github.com/aws/aws-sdk-go-v2/service/codeguruprofiler v1.18.6 // indirect
+	github.com/aws/aws-sdk-go-v2/service/codepipeline v1.22.6 // indirect
 	github.com/aws/aws-sdk-go-v2/service/codestarconnections v1.22.1 // indirect
 	github.com/aws/aws-sdk-go-v2/service/codestarnotifications v1.20.6 // indirect
 	github.com/aws/aws-sdk-go-v2/service/comprehend v1.29.6 // indirect
@@ -57,7 +58,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/directoryservice v1.22.8 // indirect
 	github.com/aws/aws-sdk-go-v2/service/docdbelastic v1.6.6 // indirect
 	github.com/aws/aws-sdk-go-v2/service/dynamodb v1.26.7 // indirect
-	github.com/aws/aws-sdk-go-v2/service/ec2 v1.142.1 // indirect
+	github.com/aws/aws-sdk-go-v2/service/ec2 v1.144.0 // indirect
 	github.com/aws/aws-sdk-go-v2/service/ecr v1.24.7 // indirect
 	github.com/aws/aws-sdk-go-v2/service/eks v1.37.1 // indirect
 	github.com/aws/aws-sdk-go-v2/service/elasticache v1.34.7 // indirect
@@ -85,6 +86,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/keyspaces v1.7.6 // indirect
 	github.com/aws/aws-sdk-go-v2/service/kinesis v1.24.7 // indirect
 	github.com/aws/aws-sdk-go-v2/service/lambda v1.49.7 // indirect
+	github.com/aws/aws-sdk-go-v2/service/launchwizard v1.1.6 // indirect
 	github.com/aws/aws-sdk-go-v2/service/lexmodelsv2 v1.38.6 // indirect
 	github.com/aws/aws-sdk-go-v2/service/lightsail v1.33.0 // indirect
 	github.com/aws/aws-sdk-go-v2/service/lookoutmetrics v1.25.6 // indirect
@@ -112,8 +114,9 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/s3 v1.48.0 // indirect
 	github.com/aws/aws-sdk-go-v2/service/s3control v1.41.8 // indirect
 	github.com/aws/aws-sdk-go-v2/service/scheduler v1.6.6 // indirect
+	github.com/aws/aws-sdk-go-v2/service/secretsmanager v1.26.1 // indirect
 	github.com/aws/aws-sdk-go-v2/service/securityhub v1.44.2 // indirect
-	github.com/aws/aws-sdk-go-v2/service/securitylake v1.10.6 // indirect
+	github.com/aws/aws-sdk-go-v2/service/securitylake v1.10.7 // indirect
 	github.com/aws/aws-sdk-go-v2/service/servicecatalogappregistry v1.24.8 // indirect
 	github.com/aws/aws-sdk-go-v2/service/servicequotas v1.19.7 // indirect
 	github.com/aws/aws-sdk-go-v2/service/sesv2 v1.24.6 // indirect
@@ -134,7 +137,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/verifiedpermissions v1.8.4 // indirect
 	github.com/aws/aws-sdk-go-v2/service/vpclattice v1.5.6 // indirect
 	github.com/aws/aws-sdk-go-v2/service/wellarchitected v1.27.6 // indirect
-	github.com/aws/aws-sdk-go-v2/service/workspaces v1.35.7 // indirect
+	github.com/aws/aws-sdk-go-v2/service/workspaces v1.35.8 // indirect
 	github.com/aws/aws-sdk-go-v2/service/xray v1.23.7 // indirect
 	github.com/aws/smithy-go v1.19.0 // indirect
 	github.com/beevik/etree v1.3.0 // indirect
@@ -166,7 +169,7 @@ require (
 	github.com/hashicorp/logutils v1.0.0 // indirect
 	github.com/hashicorp/terraform-exec v0.19.0 // indirect
 	github.com/hashicorp/terraform-json v0.18.0 // indirect
-	github.com/hashicorp/terraform-plugin-framework v1.4.2 // indirect
+	github.com/hashicorp/terraform-plugin-framework v1.5.0 // indirect
 	github.com/hashicorp/terraform-plugin-framework-jsontypes v0.1.0 // indirect
 	github.com/hashicorp/terraform-plugin-framework-timeouts v0.4.1 // indirect
 	github.com/hashicorp/terraform-plugin-framework-validators v0.12.0 // indirect
@@ -206,15 +209,15 @@ require (
 	go.opentelemetry.io/otel v1.21.0 // indirect
 	go.opentelemetry.io/otel/metric v1.21.0 // indirect
 	go.opentelemetry.io/otel/trace v1.21.0 // indirect
-	golang.org/x/crypto v0.17.0 // indirect
-	golang.org/x/mod v0.14.0 // indirect
-	golang.org/x/net v0.19.0 // indirect
-	golang.org/x/sys v0.15.0 // indirect
-	golang.org/x/text v0.14.0 // indirect
+	golang.org/x/crypto v0.31.0 // indirect
+	golang.org/x/mod v0.17.0 // indirect
+	golang.org/x/net v0.21.0 // indirect
+	golang.org/x/sys v0.28.0 // indirect
+	golang.org/x/text v0.21.0 // indirect
 	google.golang.org/appengine v1.6.8 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20231002182017-d307bd883b97 // indirect
 	google.golang.org/grpc v1.60.0 // indirect
-	google.golang.org/protobuf v1.31.0 // indirect
+	google.golang.org/protobuf v1.33.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
 
